@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+  }
+  
+  
+  
+  body {
+    background-color: #262E38;
+  }
+  
+  
+  .card {
+    background-color: #323c47;
+    height: 400px;
+    width: 400px;
+    padding: 25px;
+    margin: calc(40px + 5%) auto;
+    border-radius: 8%;
+  }
+  
+  .icon {
+    position: relative;
+  }
+  
+  .oval {
+    position: absolute;
+    top: 2px;
+    left: 8px;
+    background-color: #3c4652;
+    height: 51px;
+    width: 51px;
+    border-radius: 50%;
+  }
+  
+  .icon img {
+    position: absolute;
+    height: 51px;
+    width: 51px;
+    left: 8px;
+    padding: 8px;
+    color: #FC7614;
+    border-radius: 50%;
+    scale: 0.6;
+    z-index: 1;
+  
+  }
+  
+  
+  .text h1 {
+    font-weight: 400;
+    margin-top: 70px;
+    color: white;
+  }
+  
+  .text p {
+    color: #7C8798;
+    line-height: 1.4;
+    margin: 10px 0 29px 0;
+  }
+  
+  .text h1,
+  .text p {
+    text-align: left;
+    margin-left: 10px;
+  }
+  
+  .rate_button  {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .rate_button a{
+    height: 51px;
+    width: 51px;
+    padding: 16px;
+    color: #7C8798; 
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: #3c4652;
+  }
+  
+  .rate_button a:hover {
+    color: #FFFFFF;
+    background-color: #FC7614;
+  
+  }
+  
+  .rate_button a:focus {
+    background-color: #7C8798;
+    color: #FFFFFF;
+  }
+  
+  
+  .submit1 {
+    background-color: #FC7614;
+    text-align: center;
+    color: #FFFFFF;
+    width: 341px;
+    height: 45px;
+    margin: 30px auto;
+    border-radius: 20px;
+    padding-top: 14px;
+    letter-spacing: 2px;
+  }
+  
+  .submit1:hover {
+    color: #FC7614;
+    background-color: #FFFFFF;
+  }
+  
+  
+  /** Thank you page style **/
+  
+  
+  .thankyou {
+    text-align: center;
+  }
+  
+  
+  .card2 h1  {
+    color: #FFFFFF;
+    margin-bottom: 15px;
+  }
+  
+  .card2 img {
+    margin-top: 15px;
+  
+  }
+  
+  .card2 p  {
+    color: #7C8798;
+    line-height: 1.5;
+  }
+  
+  .card2 .submit p {
+    /* padding: 10px; */
+    /* font-size: smaller; */
+    /* padding-top: 0; */
+    color: #FC7614;
+  }
+  
+  .card2 .submit  {
+    background-color: #3c4652;
+    text-align: center;
+    color: #ca1111;
+    width: 201px;
+    height: 40px;
+    margin: 30px auto 20px auto;
+    border-radius: 20px;
+    padding-top: 8px;
+    letter-spacing: 0;
+  }
+  
+  
+  /* RESPONSIVENESS */
+  
+  @media  (max-width: 400px) {
+    .card {
+      height: 360px;
+      width: 327px;
+      padding: 25px;
+      margin: calc(40px + 5%) auto;
+      background-color: #323c47;
+      border-radius: 8%;
+    }
+    
+    
+    .icon {
+      position: relative;
+    }
+    
+    .oval {
+      position: absolute;
+      top: 2px;
+      left: 8px;
+      background-color: #262E38;
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+    }
+    
+    .icon img {
+      position: absolute;
+      height: 13.96px;
+      width: 13.33px;
+      left: 8px;
+      padding: 8px;
+      color: #FC7614;
+      border-radius: 50%;
+      scale: 0.6;
+      z-index: 1;
+    
+    }
+    
+    
+    .text h1 {
+      font-weight: 400;
+      margin-top: 60px;
+      color: white;
+      font-size: 24;
+    }
+    
+    .text p {
+      color: #7C8798;
+      line-height: 1.4;
+      margin: 12px 0 ;
+    }
+    
+    .text h1,
+    .text p {
+      text-align: left;
+      margin-left: 10px;
+    }
+    
+    .rate_button  {
+      display: flex;
+      justify-content: space-around;
+    }
+    
+    .rate_button a{
+      height: 42px;
+      width: 42px;
+      padding: 12px;
+      color: #7C8798; 
+      text-align: center;
+      text-decoration: none;
+      border-radius: 50%;
+      background-color: #262E38;
+    }
+    
+    .rate_button a:hover {
+      color: #FFFFFF;
+      background-color: #FC7614;
+    
+    }
+    
+    .rate_button a:focus {
+      background-color: #7C8798;
+      color: #FFFFFF;
+    }
+    
+    
+    .submit1 {
+      background-color: #FC7614;
+      text-align: center;
+      color: #FFFFFF;
+      width: 279px;
+      height: 45px;
+      margin: 16px auto;
+      border-radius: 20px;
+      padding-top: 14px;
+      letter-spacing: 2px;
+    }
+    
+    .submit1:hover {
+      color: #FC7614;
+      background-color: #FFFFFF;
+    }
+    
+    
+
+    
+    /** Thank you page style **/
+    
+    
+    .thankyou {
+      text-align: center;
+    }
+    
+    
+    .card2 h1  {
+      color: #FFFFFF;
+      font-weight: 400;
+      margin-bottom: 5px;
+    }
+    
+    .card2 img {
+      margin-top: 30px;
+    
+    }
+    
+    .card2 p  {
+      color: #7C8798;
+      line-height: 1.3;
+    }
+    
+    .card2 .submit p {
+      padding: 10px;
+      font-size: smaller;
+      padding-top: 0;
+      color: #FC7614;
+    }
+  
+    .card2 .submit  {
+      background-color: #3c4652;
+      text-align: center;
+      width: 168px;
+      height: 32px;
+      margin: 20px auto 15px auto;
+      border-radius: 20px;
+      padding-top: 8px;
+      letter-spacing: 0;
+    }
+    
+  }
