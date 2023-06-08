@@ -186,13 +186,14 @@
     
     .icon img {
       position: absolute;
-      height: 13.96px;
-      width: 13.33px;
-      left: 8px;
+      height: 26.96px;
+      width: 26.96px;
+      left: 15px;
+      top: 7px;
       padding: 8px;
       color: #FC7614;
       border-radius: 50%;
-      scale: 0.6;
+      scale: 1.7;
       z-index: 1;
     
     }
